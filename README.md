@@ -1,6 +1,8 @@
 # eslint-config-zenflow
 A standard eslint configuration
 
+[![Build Status](https://travis-ci.org/zenflow/eslint-config-zenflow.svg?branch=master)](https://travis-ci.org/zenflow/eslint-config-zenflow)
+
 ## Installation
 
 ### Step 1
