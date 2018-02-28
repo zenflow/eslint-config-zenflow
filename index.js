@@ -11,6 +11,7 @@ module.exports = {
     resolveConfig('prettier/standard'),
   ],
   rules: {
+    'react/react-in-jsx-scope': 'off',
     'prettier/prettier': [
       'error',
       {
