@@ -3,6 +3,13 @@ A standard eslint configuration
 
 [![Build Status](https://travis-ci.org/zenflow/eslint-config-zenflow.svg?branch=master)](https://travis-ci.org/zenflow/eslint-config-zenflow)
 
+## Code Style
+
+The same as [StandardJS](https://standardjs.com/#standardjs--the-rules) with some additions:
+
+- [Prettier](https://github.com/prettier/prettier) (via [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier))
+- Trailing commas are required. This way when a line is added to or removed from the end of an array or object literal or function call, the line above it is not affected.
+
 ## Installation
 
 ### Step 1
