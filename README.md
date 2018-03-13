@@ -37,3 +37,20 @@ e.g. `.eslintrc.json`
 ### Step 3
 
 Copy [the .editorconfig file](./.editorconfig) to the root of your project, so that file editors and IDEs will cooperate with the formatting style
+
+### Step 4 (optional)
+
+```bash
+npm install --save-dev eslint`
+```
+
+&&
+
+```json
+{
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+  }
+}
+```
