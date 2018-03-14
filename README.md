@@ -3,7 +3,7 @@ A standard eslint configuration
 
 [![Build Status](https://travis-ci.org/zenflow/eslint-config-zenflow.svg?branch=master)](https://travis-ci.org/zenflow/eslint-config-zenflow)
 
-## Code Style
+## Rules
 
 The same as [StandardJS](https://standardjs.com/#standardjs--the-rules) with some additions:
 
