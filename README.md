@@ -1,12 +1,11 @@
 # eslint-config-zenflow
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/zenflow/eslint-config-zenflow.svg)](https://greenkeeper.io/)
-
 [![Build Status](https://travis-ci.org/zenflow/eslint-config-zenflow.svg?branch=master)](https://travis-ci.org/zenflow/eslint-config-zenflow)
-[![Dependencies Status](https://david-dm.org/zenflow/eslint-config-zenflow.svg)](https://david-dm.org/zenflow/eslint-config-zenflow)
 [![npm version](https://badge.fury.io/js/eslint-config-zenflow.svg)](https://www.npmjs.com/packages/eslint-config-zenflow)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Dependencies Status](https://david-dm.org/zenflow/eslint-config-zenflow.svg)](https://david-dm.org/zenflow/eslint-config-zenflow)
+[![Greenkeeper badge](https://badges.greenkeeper.io/zenflow/eslint-config-zenflow.svg)](https://greenkeeper.io/)
 ![semantic-release badge](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A standard eslint configuration
 
