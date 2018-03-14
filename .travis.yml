@@ -1,2 +1,7 @@
 language: node_js
 node_js: node
+jobs:
+  include:
+    - stage: release
+      if: branch = master
+      script: semantic-release

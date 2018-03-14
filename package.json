@@ -38,6 +38,8 @@
     "prettier": ">=1.9.1"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^2.0.1",
+    "@semantic-release/git": "^4.0.1",
     "eslint": "^4.18.2",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-node": "^6.0.1",
@@ -45,7 +47,8 @@
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-react": "^7.5.1",
     "eslint-plugin-standard": "^3.0.1",
-    "prettier": "^1.11.1"
+    "prettier": "^1.11.1",
+    "semantic-release": "^15.0.3"
   },
   "eslintConfig": {
     "extends": [
