@@ -10,7 +10,10 @@ module.exports = {
     resolve('eslint-config-prettier/standard'),
   ],
   rules: {
+    // eslint customization
     'react/react-in-jsx-scope': 'off',
+    'linebreak-style': ['error', 'unix'],
+
     'prettier/prettier': [
       'error',
       {
@@ -18,6 +21,7 @@ module.exports = {
         semi: false,
         singleQuote: true,
 
+        // prettier customization
         trailingComma: 'all',
       },
     ],
