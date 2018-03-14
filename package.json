@@ -6,6 +6,7 @@
   "files": [
     ".editorconfig",
     ".eslintrc.js",
+    ".gitattributes",
     "CHANGELOG.md"
   ],
   "scripts": {
