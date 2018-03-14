@@ -1,3 +1,11 @@
+<a name="2.1.0"></a>
+# [2.1.0](https://github.com/zenflow/eslint-config-zenflow/compare/v2.0.0...v2.1.0) (2018-03-14)
+
+
+### Features
+
+* **gitattributes:** publish .gitattributes, useful for avoiding line ending issues ([4e153f9](https://github.com/zenflow/eslint-config-zenflow/commit/4e153f9))
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/zenflow/eslint-config-zenflow/compare/v1.1.6...v2.0.0) (2018-03-14)
 

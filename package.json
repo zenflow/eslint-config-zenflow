@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-zenflow",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A standard eslint configuration",
   "main": ".eslintrc.js",
   "files": [
