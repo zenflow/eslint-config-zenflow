@@ -10,8 +10,8 @@
   ],
   "scripts": {
     "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
+    "fix": "eslint . --fix",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
     "test": "npm run eslint-check && npm run lint"
   },
   "repository": {
