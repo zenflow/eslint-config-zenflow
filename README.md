@@ -15,6 +15,7 @@ The same as [StandardJS](https://standardjs.com/#standardjs--the-rules) with som
 
 - [Prettier](https://github.com/prettier/prettier) (via [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier))
 - Trailing commas are required. This way when a line is added to or removed from the end of an array or object literal or function call, the line above it is not affected.
+- Line endings are required to be strictly unix
 
 ## Installation
 
@@ -43,6 +44,10 @@ e.g. `.eslintrc.json`
 ### Step 3
 
 Copy [the .editorconfig file](./.editorconfig) to the root of your project, so that file editors and IDEs will cooperate with the formatting style
+
+### Step 4
+
+Copy [the .gitattributes file](./.gitattributes) to the root of your project, so that Git will cooperate with the formatting style
 
 ### Step 4 (optional)
 
