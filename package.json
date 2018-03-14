@@ -2,11 +2,11 @@
   "name": "eslint-config-zenflow",
   "version": "1.1.6",
   "description": "A standard eslint configuration",
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "files": [
     ".editorconfig",
-    "CHANGELOG.md",
-    "index.js"
+    ".eslintrc.js",
+    "CHANGELOG.md"
   ],
   "scripts": {
     "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
@@ -57,7 +57,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "./index.js"
+      "./.eslintrc.js"
     ]
   },
   "eslintIgnore": [
