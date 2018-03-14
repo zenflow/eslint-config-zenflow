@@ -1,6 +1,11 @@
 language: node_js
 node_js: node
+stages:
+  - test
+  - release
 jobs:
   include:
+    - stage: test
+      script: npm test
     - stage: release
       script: semantic-release
