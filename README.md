@@ -49,7 +49,7 @@ Copy [the .editorconfig file](./.editorconfig) to the root of your project, so t
 
 Copy [the .gitattributes file](./.gitattributes) to the root of your project, so that Git will cooperate with the formatting style
 
-### Step 4 (optional)
+### Step 5 (optional)
 
 ```bash
 npm install --save-dev eslint`
