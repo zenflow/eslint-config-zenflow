@@ -1,8 +1,9 @@
 language: node_js
 node_js: node
 stages:
-  - test
-  - release
+  - name: test
+  - name: release
+    if: branch = master
 jobs:
   include:
     - stage: test
