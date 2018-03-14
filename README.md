@@ -1,5 +1,7 @@
 # eslint-config-zenflow
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zenflow/eslint-config-zenflow.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/zenflow/eslint-config-zenflow.svg?branch=master)](https://travis-ci.org/zenflow/eslint-config-zenflow)
 [![Dependencies Status](https://david-dm.org/zenflow/eslint-config-zenflow.svg)](https://david-dm.org/zenflow/eslint-config-zenflow)
 [![npm version](https://badge.fury.io/js/eslint-config-zenflow.svg)](https://www.npmjs.com/packages/eslint-config-zenflow)
