@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/zenflow/eslint-config-zenflow#readme",
   "dependencies": {
-    "babel-eslint": "^8.0.3",
+    "babel-eslint": "^9.0.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-config-standard": "^11.0.0"
   },
