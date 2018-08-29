@@ -52,7 +52,7 @@
     "eslint-plugin-prettier": "^2.3.1",
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-react": "^7.5.1",
-    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-standard": "^4.0.0",
     "prettier": "^1.11.1",
     "semantic-release": "^15.0.3"
   },
