@@ -1,0 +1,18 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  CI:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '12'
+      - run: yarn install --frozen-lockfile
+      - run: yarn print-config
+      - run: yarn test
+      - if: github.ref == 'refs/heads/master'
+        run: yarn semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
