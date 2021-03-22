@@ -1,5 +1,17 @@
 # Changelog
 
+# [3.0.0](https://github.com/zenflow/eslint-config-zenflow/compare/v2.1.1...v3.0.0) (2021-03-22)
+
+
+### Features
+
+* major update ([5d3c6a8](https://github.com/zenflow/eslint-config-zenflow/commit/5d3c6a8553f08a1ddfffc4efc6075385081ee576))
+
+
+### BREAKING CHANGES
+
+* major update
+
 ## [2.1.1](https://github.com/zenflow/eslint-config-zenflow/compare/v2.1.0...v2.1.1) (2018-03-14)
 
 
