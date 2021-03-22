@@ -1,19 +1,22 @@
 module.exports = {
   debug: true,
-  verifyConditions: [
-    "@semantic-release/changelog",
+  plugins: [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/changelog",
+      {
+        changelogFile: "CHANGELOG.md",
+        changelogTitle: "# Changelog",
+      },
+    ],
     "@semantic-release/npm",
-    "@semantic-release/git",
+    [
+      "@semantic-release/git",
+      {
+        assets: ["package.json", "CHANGELOG.md"],
+      },
+    ],
+    "@semantic-release/github",
   ],
-  prepare: [
-    "@semantic-release/changelog",
-    "@semantic-release/npm",
-    {
-      path: "@semantic-release/git",
-      assets: ["package.json", "CHANGELOG.md"],
-      // eslint-disable-next-line no-template-curly-in-string
-      message: "chore(release): ${nextRelease.version} [skip ci]",
-    },
-  ],
-  publish: ["@semantic-release/npm", "@semantic-release/github"],
 };

@@ -1,4 +1,5 @@
-<a name="2.1.1"></a>
+# Changelog
+
 ## [2.1.1](https://github.com/zenflow/eslint-config-zenflow/compare/v2.1.0...v2.1.1) (2018-03-14)
 
 
@@ -6,7 +7,6 @@
 
 * **readme:** fix step number for step 5 ([d8e2311](https://github.com/zenflow/eslint-config-zenflow/commit/d8e2311))
 
-<a name="2.1.0"></a>
 # [2.1.0](https://github.com/zenflow/eslint-config-zenflow/compare/v2.0.0...v2.1.0) (2018-03-14)
 
 
@@ -14,7 +14,6 @@
 
 * **gitattributes:** publish .gitattributes, useful for avoiding line ending issues ([4e153f9](https://github.com/zenflow/eslint-config-zenflow/commit/4e153f9))
 
-<a name="2.0.0"></a>
 # [2.0.0](https://github.com/zenflow/eslint-config-zenflow/compare/v1.1.6...v2.0.0) (2018-03-14)
 
 
@@ -28,7 +27,6 @@
 
 * **style:** now strictly using unix line endings
 
-<a name="1.1.6"></a>
 ## [1.1.6](https://github.com/zenflow/eslint-config-zenflow/compare/v1.1.5...v1.1.6) (2018-03-14)
 
 
@@ -36,7 +34,6 @@
 
 * **ci:** ensure test stage runs ([71e85b4](https://github.com/zenflow/eslint-config-zenflow/commit/71e85b4))
 
-<a name="1.1.5"></a>
 ## [1.1.5](https://github.com/zenflow/eslint-config-zenflow/compare/v1.1.4...v1.1.5) (2018-03-14)
 
 
@@ -44,7 +41,6 @@
 
 * **readme:** reorder badges ([ba554be](https://github.com/zenflow/eslint-config-zenflow/commit/ba554be))
 
-<a name="1.1.4"></a>
 ## [1.1.4](https://github.com/zenflow/eslint-config-zenflow/compare/v1.1.3...v1.1.4) (2018-03-14)
 
 
