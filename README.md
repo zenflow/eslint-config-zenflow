@@ -7,61 +7,70 @@
 ![semantic-release badge](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A standard eslint configuration
+A good eslint configuration
 
-## Rules
+## Features
 
-The same as [StandardJS](https://standardjs.com/#standardjs--the-rules) with some additions:
+- Bundles many eslint plugins & other dependencies into one.
+  See [How Plugins Are Bundled](#how-plugins-are-bundled).
+- Based on [`eslint-config-react-app`](https://github.com/facebook/create-react-app/tree/master/packages/eslint-config-react-app)
+  with default config for rules of these plugins:
+  - [`@typescript-eslint/eslint-plugin`](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin)
+  - [`eslint-plugin-flowtype`](https://www.npmjs.com/package/eslint-plugin-flowtype)
+  - [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-plugin-import)
+  - [`eslint-plugin-jest`](https://www.npmjs.com/package/eslint-plugin-jest)
+  - [`eslint-plugin-jsx-a11y`](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
+  - [`eslint-plugin-react`](https://www.npmjs.com/package/eslint-plugin-react)
+  - [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks)
+  - [`eslint-plugin-testing-library`](https://www.npmjs.com/package/eslint-plugin-testing-library)
+- [`prettier`](https://www.npmjs.com/package/prettier) integration using
+  [`eslint-plugin-prettier`](https://www.npmjs.com/package/eslint-plugin-prettier) &
+  [`eslint-config-prettier`](https://www.npmjs.com/package/eslint-config-prettier)
 
-- [Prettier](https://github.com/prettier/prettier) (via [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier))
-- Trailing commas are required. This way when a line is added to or removed from the end of an array or object literal or function call, the line above it is not affected.
-- Line endings are required to be strictly unix
+## Install
 
-## Installation
+Install packages:
 
-### Step 1
+```shell
+npm install --save-dev eslint eslint-config-zenflow
 
+# optional
+npm install --save-dev typescript
 ```
-$ npm install --save-dev eslint-config-zenflow eslint-plugin-import eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-standard prettier
-```
 
-*Sorry there are so many dependencies that need to be installed with this! Maybe some day this won't be necessary; See [eslint issue #3458](https://github.com/eslint/eslint/issues/3458).*
+Add `.eslintrc` file:
 
-### Step 2
-
-Add `"zenflow"` to the `"extends"` array in your eslint config:
-
-e.g. `.eslintrc.json`
-
-```json
+```json5
 {
-  "extends": [
-    "zenflow"
-  ]
+  "extends": ["zenflow"],
+  "rules": { /* custom rule configs here */ }
 }
 ```
 
-### Step 3
+Add package `"scripts"`:
 
-Copy [the .editorconfig file](./.editorconfig) to the root of your project, so that file editors and IDEs will cooperate with the formatting style
-
-### Step 4
-
-Copy [the .gitattributes file](./.gitattributes) to the root of your project, so that Git will cooperate with the formatting style
-
-### Step 5 (optional)
-
-```bash
-npm install --save-dev eslint`
+```
+"lint": "eslint . --ext .js,.ts,.jsx,.tsx",
+"lint-fix": "npm run lint -- --fix",
 ```
 
-&&
+**Optional** [Configure Prettier](https://prettier.io/docs/en/configuration.html) to your taste.
 
-```json
-{
-  "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-  }
-}
-```
+**Optional** Copy [the companion .editorconfig file](./.editorconfig) to the root of your project.
+
+**Recommended** Enable eslint integration in your IDE of choice
+
+## How Plugins Are Bundled
+
+Because of the way eslint resolves plugin modules,
+its documentation tells us that [a shareable config should include its plugin dependencies in "peerDependencies"](https://eslint.org/docs/developer-guide/shareable-configs.html#publishing-a-shareable-config),
+meaning users of the config need to install and depend on each plugin package themselves.
+Parsers work the same way.
+This is the essence of [eslint issue #3458](https://github.com/eslint/eslint/issues/3458).
+
+For the sake of convenience, here we are ignoring that instruction,
+instead including plugins and parsers as regular `"dependencies"`,
+and **relying on the project to not have any additional versions of these packages installed**.
+This should normally not be a problem, since you should only ever really *need* one version of eslint-plugin-whatever.
+If you have (for some reason) an alternate version as a dependency of a dependency, eslint will fail to resolve the module to either version.
+That error can be easily corrected by adding the plugin or parser package as a direct dependency with the version matching the version used by this package.
