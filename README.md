@@ -1,13 +1,14 @@
 # eslint-config-zenflow
 
-[![Build Status](https://travis-ci.org/zenflow/eslint-config-zenflow.svg?branch=master)](https://travis-ci.org/zenflow/eslint-config-zenflow)
-[![npm version](https://badge.fury.io/js/eslint-config-zenflow.svg)](https://www.npmjs.com/packages/eslint-config-zenflow)
-[![Dependencies Status](https://david-dm.org/zenflow/eslint-config-zenflow.svg)](https://david-dm.org/zenflow/eslint-config-zenflow)
-[![Greenkeeper badge](https://badges.greenkeeper.io/zenflow/eslint-config-zenflow.svg)](https://greenkeeper.io/)
-![semantic-release badge](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+> A good eslint configuration
 
-A good eslint configuration
+[![npm version](https://img.shields.io/npm/v/eslint-config-zenflow)](http://npmjs.com/package/eslint-config-zenflow)
+[![CI status](https://img.shields.io/github/workflow/status/zenflow/eslint-config-zenflow/CI?logo=GitHub&label=CI)](https://github.com/zenflow/eslint-config-zenflow/actions?query=branch%3Amaster)
+[![dependencies status](https://img.shields.io/david/zenflow/eslint-config-zenflow)](https://david-dm.org/zenflow/eslint-config-zenflow)
+[![devDependencies status](https://img.shields.io/david/dev/zenflow/eslint-config-zenflow)](https://david-dm.org/zenflow/eslint-config-zenflow?type=dev)
+[![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability-percentage/zenflow/eslint-config-zenflow?logo=Code%20Climate)](https://codeclimate.com/github/zenflow/eslint-config-zenflow)
+[![LGTM alerts](https://img.shields.io/lgtm/alerts/github/zenflow/eslint-config-zenflow?logo=lgtm)](https://lgtm.com/projects/g/zenflow/eslint-config-zenflow/)
+[![Known Vulnerabilities](https://snyk.io/test/github/zenflow/eslint-config-zenflow/badge.svg?targetFile=package.json)](https://snyk.io/test/github/zenflow/eslint-config-zenflow?targetFile=package.json)
 
 ## Features
 
