@@ -71,7 +71,7 @@ This is the essence of [eslint issue #3458](https://github.com/eslint/eslint/iss
 
 For the sake of convenience, here we are ignoring that instruction,
 instead including plugins and parsers as regular `"dependencies"`,
-and **relying on the project to not have any additional versions of these packages installed**.
+and **relying on your project to not have any additional versions of these packages installed**.
 This should normally not be a problem, since you should only ever really *need* one version of eslint-plugin-whatever.
 If you have (for some reason) an alternate version as a dependency of a dependency, eslint will fail to resolve the module to either version.
 That error can be easily corrected by adding the plugin or parser package as a direct dependency with the version matching the version used by this package.
