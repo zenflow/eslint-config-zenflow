@@ -4,8 +4,6 @@
 
 [![npm version](https://img.shields.io/npm/v/eslint-config-zenflow)](http://npmjs.com/package/eslint-config-zenflow)
 [![CI status](https://img.shields.io/github/workflow/status/zenflow/eslint-config-zenflow/CI?logo=GitHub&label=CI)](https://github.com/zenflow/eslint-config-zenflow/actions?query=branch%3Amaster)
-[![dependencies status](https://img.shields.io/david/zenflow/eslint-config-zenflow)](https://david-dm.org/zenflow/eslint-config-zenflow)
-[![devDependencies status](https://img.shields.io/david/dev/zenflow/eslint-config-zenflow)](https://david-dm.org/zenflow/eslint-config-zenflow?type=dev)
 [![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability-percentage/zenflow/eslint-config-zenflow?logo=Code%20Climate)](https://codeclimate.com/github/zenflow/eslint-config-zenflow)
 [![LGTM alerts](https://img.shields.io/lgtm/alerts/github/zenflow/eslint-config-zenflow?logo=lgtm)](https://lgtm.com/projects/g/zenflow/eslint-config-zenflow/)
 [![Known Vulnerabilities](https://snyk.io/test/github/zenflow/eslint-config-zenflow/badge.svg?targetFile=package.json)](https://snyk.io/test/github/zenflow/eslint-config-zenflow?targetFile=package.json)
