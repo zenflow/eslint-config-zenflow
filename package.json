@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-zenflow",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "A good eslint configuration",
   "main": "index.js",
   "files": [

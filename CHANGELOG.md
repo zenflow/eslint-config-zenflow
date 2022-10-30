@@ -1,5 +1,17 @@
 # Changelog
 
+# [4.0.0](https://github.com/zenflow/eslint-config-zenflow/compare/v3.0.0...v4.0.0) (2022-10-30)
+
+
+### chore
+
+* **package:** upgrade dependencies ([f6f3846](https://github.com/zenflow/eslint-config-zenflow/commit/f6f3846faeffacc95d8af53da2554b036bdcb038)), closes [#19](https://github.com/zenflow/eslint-config-zenflow/issues/19)
+
+
+### BREAKING CHANGES
+
+* **package:** requires eslint 8 now
+
 # [3.0.0](https://github.com/zenflow/eslint-config-zenflow/compare/v2.1.1...v3.0.0) (2021-03-22)
 
 
